@@ -47,6 +47,7 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
 {
     Frame rootFrame{ nullptr };
     auto content = Window::Current().Content();
+
     if (content)
     {
         rootFrame = content.try_as<Frame>();
@@ -119,5 +120,5 @@ void App::OnSuspending([[maybe_unused]] IInspectable const& sender, [[maybe_unus
 /// <param name="e">Details about the navigation failure</param>
 void App::OnNavigationFailed(IInspectable const&, NavigationFailedEventArgs const& e)
 {
-    throw hresult_error(E_FAIL, hstring(L"Failed to load Page ") + e.SourcePageType().Name);
+        throw hresult_error(E_FAIL, hstring(L"Failed to load Page ") + e.SourcePageType().Name);
 }
