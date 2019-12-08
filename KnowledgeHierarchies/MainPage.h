@@ -7,9 +7,9 @@ namespace winrt::KnowledgeHierarchies::implementation
     struct MainPage : MainPageT<MainPage>
     {
         MainPage();
-
-        int32_t MyProperty();
-        void MyProperty(int32_t value);
+        BOOLEAN rs4;
+        BOOLEAN MyProperty();
+        void MyProperty(BOOLEAN value);
 
         void ClickHandler(Windows::Foundation::IInspectable const& sender, Windows::UI::Xaml::RoutedEventArgs const& args);
     };
