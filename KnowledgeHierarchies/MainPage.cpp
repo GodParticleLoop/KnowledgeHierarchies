@@ -6,6 +6,7 @@
 
 using namespace winrt;
 using namespace Windows::UI::Xaml;
+using namespace Windows::UI::Xaml::Controls;
 using namespace Windows::Foundation::Metadata;
 
 namespace winrt::KnowledgeHierarchies::implementation

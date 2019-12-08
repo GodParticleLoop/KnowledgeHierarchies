@@ -1,5 +1,6 @@
 ﻿#pragma once
 #include "App.xaml.g.h"
+#include "winrt/Windows.Foundation.Metadata.h"
 
 namespace winrt::KnowledgeHierarchies::implementation
 {

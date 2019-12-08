@@ -2,14 +2,17 @@
 
 #include "App.h"
 #include "MainPage.h"
+#include <Generated Files\App.xaml.g.h>
 
 using namespace winrt;
 using namespace Windows::ApplicationModel;
 using namespace Windows::ApplicationModel::Activation;
 using namespace Windows::Foundation;
+using namespace Windows::Foundation::Metadata;
 using namespace Windows::UI::Xaml;
 using namespace Windows::UI::Xaml::Controls;
 using namespace Windows::UI::Xaml::Navigation;
+
 using namespace KnowledgeHierarchies;
 using namespace KnowledgeHierarchies::implementation;
 
