@@ -663,7 +663,7 @@
 #include <winrt/Windows.Security.Authentication.Identity.h>
 //Contains classes for interacting with enterprise key credential registration.
 
-#include <winrt/Windows.Security.Authentication.Identity.Core.h>
+//#include <winrt/Windows.Security.Authentication.Identity.Core.h>
 //This API is for internal use only and should not be used in your code.
 
 #include <winrt/Windows.Security.Authentication.Identity.Provider.h>
