@@ -1,2 +1,14 @@
 # KnowledgeHierarchies
-Knowledge Representation and Logic  
+Logic and Philosopy
+
+Phsycolinguistics
+
+Inhheritance Hierarchies
+
+Standard Template Library
+
+Visual Studio Community 2019
+
+C++ winRT UWP
+
+https://github.com
