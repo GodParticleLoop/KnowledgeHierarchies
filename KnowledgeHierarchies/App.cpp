@@ -38,6 +38,7 @@ App::App()
 #endif
 }
 
+
 /// <summary>
 /// Invoked when the application is launched normally by the end user.  Other entry points
 /// will be used such as when the application is launched to open a specific file.
@@ -122,3 +123,4 @@ void App::OnNavigationFailed(IInspectable const&, NavigationFailedEventArgs cons
 {
         throw hresult_error(E_FAIL, hstring(L"Failed to load Page ") + e.SourcePageType().Name);
 }
+
