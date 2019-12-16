@@ -124,9 +124,6 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\BadgeLogo.scale-400.png">
-      <DeploymentContent>true</DeploymentContent>
-    </Image>
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\Square150x150Logo.scale-200.png" />
@@ -156,6 +153,7 @@
     </Midl>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Program Files (x64)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VisualStudio\v16.0\AppxPackage\Microsoft.AppxPackage.Targets" />
     <None Include="packages.config" />
     <None Include="PropertySheet.props" />
     <Text Include="readme.txt">
