@@ -6,6 +6,7 @@ namespace winrt::KnowledgeHierarchies::implementation
 {
     struct MainPage : MainPageT<MainPage>
     {
+
         MainPage();
         BOOLEAN rs4;
         BOOLEAN MyProperty();
@@ -19,5 +20,6 @@ namespace winrt::KnowledgeHierarchies::factory_implementation
 {
     struct MainPage : MainPageT<MainPage, implementation::MainPage>
     {
+
     };
 }
