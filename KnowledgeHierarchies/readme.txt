@@ -22,10 +22,33 @@ Steps:
 ========================================================================
 Learn more about C++/WinRT here:
 http://aka.ms/cppwinrt/
-
+Thank you too,
+Microsoft and GitHub and the WannaBeTeam
 ========================================================================
+GitHub=Mine=Azure;
 # KnowledgeHierarchies
+https://sergeizoey2014.visualstudio.com/KnowledgeHierarchies
 Knowledge Representation and Logic
+automated methods include artificial intelligence (AI),
+which we think of as a set of technologies that enable computers to perceive,
+learn, reason, and assist in decision-making to solve problems...
+...in ways that are similar to what people do.
+ We manually review short snippets of a small sampling of voice data
+ (we have taken steps to de-identify this voice data)
+ {
+  by using a computing standard
+  in which sensitive medical information
+  contained in electronic health records (EHR)
+  can be made unusable
+  so that unauthorized users
+  are unable to read the actual content
+  since it is no longer in its original state
+
+   While (authorized users)
+        {
+            Continue to improve our speech services, such as recognition and translation.
+        }
+  }
 
   Some devices are designed to deny users access to install or run
 modified versions of the software inside them, although the manufacturer
