@@ -27,6 +27,7 @@ Microsoft and GitHub and the WannaBeTeam
 ========================================================================
 GitHub=Mine=Azure;
 # KnowledgeHierarchies
+https://github.com/GodParticleLoop/KnowledgeHierarchies
 https://sergeizoey2014.visualstudio.com/KnowledgeHierarchies
 Knowledge Representation and Logic
 automated methods include artificial intelligence (AI),
