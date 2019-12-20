@@ -29,6 +29,7 @@ GitHub=Mine=Azure;
 # KnowledgeHierarchies
 https://github.com/GodParticleLoop/KnowledgeHierarchies
 https://sergeizoey2014.visualstudio.com/KnowledgeHierarchies
+https://github.com/Microsoft/cppwinrt/tree/master/nuget
 Knowledge Representation and Logic
 automated methods include artificial intelligence (AI),
 which we think of as a set of technologies that enable computers to perceive,
