@@ -13,4 +13,4 @@ C++ winRT UWP
 
 https://github.com
 https://github.com/GodParticleLoop/KnowledgeHierarchies
-https://sergeizoey2014.visualstudio.com/KnowledgeHierachies
+
