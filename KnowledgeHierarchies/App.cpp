@@ -9,6 +9,7 @@ using namespace Windows::ApplicationModel;
 using namespace Windows::ApplicationModel::Activation;
 using namespace Windows::Foundation;
 using namespace Windows::Foundation::Metadata;
+using namespace Windows::Web::Syndication;
 using namespace Windows::UI::Xaml;
 using namespace Windows::UI::Xaml::Controls;
 using namespace Windows::UI::Xaml::Navigation;
@@ -23,6 +24,8 @@ using namespace KnowledgeHierarchies::implementation;
 App::App()
 {
     InitializeComponent();
+
+
 
     Suspending({ this, &App::OnSuspending });
 
@@ -48,6 +51,8 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
 {
     Frame rootFrame{ nullptr };
     auto content = Window::Current().Content();
+
+    //auto content = Uri( L"https://sergeizoey2014.visualstudio.com/KnowledgeHierarchies/_git/MatthewKannonA2G?path=%2F&version=GBMvvM&_a=contents");
 
     if (content)
     {
@@ -95,6 +100,8 @@ void App::OnLaunched(LaunchActivatedEventArgs const& e)
                 // configuring the new page by passing required information as a navigation
                 // parameter
                 rootFrame.Navigate(xaml_typename<KnowledgeHierarchies::MainPage>(), box_value(e.Arguments()));
+
+
             }
             // Ensure the current window is active
             Window::Current().Activate();
