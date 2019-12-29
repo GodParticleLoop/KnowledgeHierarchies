@@ -37,7 +37,7 @@ namespace winrt::KnowledgeHierarchies::implementation
 
         if (MyProperty())
         {
-            myButton().Content(box_value(L"https://sergeizoey2014.visualstudio.com/KnowledgeHierarchies/_git/MatthewKannonA2G?path=%2F&version=GBMvvM&_a=content"));
+            myButton().Content(box_value(L"https://godparticleloop.github.io/KnowledgeHierarchies/"));
         }
         else
         {
