@@ -1,4 +1,5 @@
-﻿#include "pch.h"
+﻿
+#include "pch.h"
 #include "MainPage.h"
 #include "MainPage.g.cpp"
 #include <Generated Files\MainPage.xaml.g.h>

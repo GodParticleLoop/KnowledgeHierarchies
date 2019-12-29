@@ -1,5 +1,4 @@
 ﻿#include "pch.h"
-
 #include "App.h"
 #include "MainPage.h"
 #include <Generated Files\App.xaml.g.h>
