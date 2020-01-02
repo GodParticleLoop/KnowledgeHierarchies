@@ -5,6 +5,7 @@
 #include <Generated Files\MainPage.xaml.g.h>
 
 
+
 using namespace winrt;
 using namespace Windows::UI::Xaml;
 using namespace Windows::UI::Xaml::Controls;
@@ -37,11 +38,12 @@ namespace winrt::KnowledgeHierarchies::implementation
 
         if (MyProperty())
         {
-            myButton().Content(box_value(L"https://godparticleloop.github.io/KnowledgeHierarchies/"));
+            myButton().Content(box_value(L"Yes Sir!"));
         }
         else
         {
             myButton().Content(box_value(L"No?"));
+            //L"https://godparticleloop.github.io/KnowledgeHierarchies/"
         }
     }
 }

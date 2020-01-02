@@ -14,6 +14,7 @@ namespace winrt::KnowledgeHierarchies::implementation
         void MyProperty(BOOLEAN value);
 
         void ClickHandler(Windows::Foundation::IInspectable const& sender, Windows::UI::Xaml::RoutedEventArgs const& args);
+
     };
 }
 
