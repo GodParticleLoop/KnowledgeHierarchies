@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KnowledgeHierarchies", "KnowledgeHierarchies.vcxproj", "{14A18ECA-CC48-45F3-B437-E9A3460118CF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2938A540-8EBB-42D3-9BC4-BE6DF33AB3B5}"
+	ProjectSection(SolutionItems) = preProject
+		MyPage.cpp = MyPage.cpp
+		MyPage.h = MyPage.h
+		MyPage.idl = MyPage.idl
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM

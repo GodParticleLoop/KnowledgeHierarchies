@@ -1,0 +1,12 @@
+namespace KnowledgeHierarchies
+{
+    delegate void RecognitionHandler(Boolean arg); // delegate type, for an event.
+    [default_interface]
+    runtimeclass MyPage : Windows.UI.Xaml.Controls.Page
+    {
+        MyPage();
+
+        Boolean MyProperty;
+
+    }
+}

@@ -1,15 +1,15 @@
 ﻿#pragma once
 
 
-#include "MainPage.g.h"
+#include "MyPage.g.h"
 #include "winrt/Windows.Foundation.Metadata.h"
 
 namespace winrt::KnowledgeHierarchies::implementation
 {
-    struct MainPage : MainPageT<MainPage>
+    struct MyPage : MainPageT<MyPage>
     {
 
-        MainPage();
+        MyPage();
         BOOLEAN rs4;
         BOOLEAN MyProperty();
         void MyProperty(BOOLEAN value);
@@ -21,7 +21,7 @@ namespace winrt::KnowledgeHierarchies::implementation
 
 namespace winrt::KnowledgeHierarchies::factory_implementation
 {
-    struct MainPage : MainPageT<MainPage, implementation::MainPage>
+    struct MyPage : MainPageT<MyPage, implementation::MyPage>
     {
 
     };

@@ -1,6 +1,6 @@
 ﻿#pragma once
-#include "App.xaml.g.h"
-#include "winrt/Windows.Foundation.Metadata.h"
+#include "App.xaml.g.h" //That will be built for me...thank you.
+#include "winrt/Windows.Foundation.Metadata.h" //That allows me to use the work created.
 
 namespace winrt::KnowledgeHierarchies::implementation
 {
