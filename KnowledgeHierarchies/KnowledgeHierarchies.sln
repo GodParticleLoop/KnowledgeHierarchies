@@ -6,11 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KnowledgeHierarchies", "KnowledgeHierarchies.vcxproj", "{14A18ECA-CC48-45F3-B437-E9A3460118CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2938A540-8EBB-42D3-9BC4-BE6DF33AB3B5}"
-	ProjectSection(SolutionItems) = preProject
-		MyPage.cpp = MyPage.cpp
-		MyPage.h = MyPage.h
-		MyPage.idl = MyPage.idl
-	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyPageComponent", "..\MyPageComponent\MyPageComponent.vcxproj", "{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +37,18 @@ Global
 		{14A18ECA-CC48-45F3-B437-E9A3460118CF}.Release|x86.ActiveCfg = Release|Win32
 		{14A18ECA-CC48-45F3-B437-E9A3460118CF}.Release|x86.Build.0 = Release|Win32
 		{14A18ECA-CC48-45F3-B437-E9A3460118CF}.Release|x86.Deploy.0 = Release|Win32
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Debug|ARM.Build.0 = Debug|ARM
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Debug|x64.ActiveCfg = Debug|x64
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Debug|x64.Build.0 = Debug|x64
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Debug|x86.Build.0 = Debug|Win32
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Release|ARM.ActiveCfg = Release|ARM
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Release|ARM.Build.0 = Release|ARM
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Release|x64.ActiveCfg = Release|x64
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Release|x64.Build.0 = Release|x64
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Release|x86.ActiveCfg = Release|Win32
+		{EC2B24AA-D656-45AF-A66A-7B1F97A930F6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
